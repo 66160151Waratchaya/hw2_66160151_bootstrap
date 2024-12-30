@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>ช่องทางการติดต่อ</h1>
+        <nav>
+            <div class="nav-container">
+                <ul class="nav-list">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Detail.html">Detail</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form class="content-box" action="/submit" method="POST" role="form" aria-label="แบบฟอร์มติดต่อ">
+            <div class="form-group">
+                <label for="fullname">ชื่อ-นามสกุล *</label>
+                <input type="text" id="fname" name="firstname" placeholder="กรุณากรอกชื่อและนามสกุลจริง">
+            </div>
+            <div class="form-group">
+                <label for="email">อีเมล *</label>
+                <input type="text" id="email" name="email" placeholder="ตัวอย่าง: example@domain.com">
+            </div>
+            <div class="form-group">
+                <label for="tel">เบอร์โทรศัพท์ *</label>
+                <input type="text" id="tel" name="tel" pattern="[0-9]{10}"
+                    placeholder="กรอกหมายเลข 10 หลัก ไม่ต้องมีขีด เช่น 0812345678">
+            </div>
+            <div class="form-group">
+                <label for="message">ข้อความ *</label>
+                <input type="text" id="message" name="message" placeholder="กรุณากรอกข้อความอย่างน้อย 10 ตัวอักษร">
+            </div>
+            <div class="form-group">
+                <button type="submit" aria-label="ส่งข้อความ">
+                    ส่งข้อความ</button>
+            </div>
+
+        </form>
+    </main>
+</body>
+<footer role="contentinfo">
+    <p>&copy; 66160151@go.buu.ac.th</p>
+</footer>
+
+</html>
