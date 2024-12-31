@@ -1,1 +1,27 @@
-# hw2_66160151_bootstrap
+# คำสั่ง Git
+- git clone https://github.com/66160151Waratchaya/hw2_66160151_bootstrap.git
+- git add .
+- git commit -m "clone hw1 เพื่อแก้ไข"
+- git add .
+- git commit -m "สร้างไฟล์ index.html เพื่อแทน Home.html และใช้ bootstrap"
+- git add .
+- git commit -m "สร้าง Navbar ใน index.html"
+- git add .
+- git commit -m "สร้าง Hero ใน index.html"
+- git add .
+- git commit -m "update ข้อมูลส่วนของ Hero"
+- git add .
+- git commit -m "สร้าง grid"
+- git add .
+- git commit -m "สร้าง contact"
+- git add .
+- git commit -m "สร้าง footer"
+- git add .
+- git commit -m "เปลี่ยนจาก Detail.html เป็น about.html"
+- git add .
+- git commit -m "เพิ่มข้อมูลใน about.html"
+- git add .
+- git commit -m "สร้าง contact.html"
+- git add .
+- git commit -m "เพิ่มข้อมูล README.md"
+- git push
